@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* Общие стили для шапки */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  background-color: black;
+}
+
+.header h1 {
+  font-size: 30px;
+  margin: 0;
+  margin-left: -100px;
+}
+
+.header h2 {
+  font-size: 18px;
+  margin: 0;
+  margin-left: -25px;
+}
+
+.header img {
+  width: 50px;
+  height: 50px;
+  margin-right: 25px;
+  margin-left: -10px;
+}
+
+.header .buttons {
+  display: flex;
+}
+
+/* Изменение стилей кнопок */
+.buttons a {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+  text-align: center;
+  background-color: gold;
+  color: #000;
+  border: 1px solid gold;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.buttons a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Позиционирование шапки и кнопок внутри */
+.header {
+  position: relative;
+  text-align: center;
+}
+
+.header img, .header div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header .buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+/* Стили для фона всего экрана */
+body {
+  background-color: black;
+}
+
+.container {
+  max-width: 20%;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <img src="img/logo.png">
+    <div>
+      <h1>FLUX</h1>
+      <h2>ДИЗАЙН-СТУДИЯ</h2>
+    </div>
+  </div>
+
+  <div class="buttons">
+    <a href="https://vk.com/topic-221332636_49194411" class="button-right">Отзывы</a>
+    <a href="https://vk.com/fluxc" class="button">ВКонтакте</a>
+    <a href="https://vk.com/im?media=&sel=-221332636" class="button-right2">Заказать</a>
+    <a href="https://vk.com/im?media=&sel=-221332636" class="button-right4">Прайс-лист</a>
+  </div>
+</div>
+
+<!-- Остальной контент страницы -->
+</body>
+</html>
